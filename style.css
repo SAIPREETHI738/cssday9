@@ -1,0 +1,30 @@
+.move{
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(pink, hotpink, red, violet, blueviolet);
+    border-radius: 50%;
+    position: relative;
+    animation: move 4s linear infinite;
+}
+@keyframes move{
+    0%{
+        left:0px; top: 0px;
+    }
+    25%{
+        left:500px;
+        top: 0px;
+    }
+    50%{
+        right: 500px;
+        top: 300px;
+    }
+    75%{
+        right: 0px;
+        top: 300px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+
+}
